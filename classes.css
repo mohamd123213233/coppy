@@ -1,0 +1,291 @@
+body{width: auto;
+    position: relative;
+    
+}
+
+img{
+    width: 100%;
+    position: absolute;
+}
+
+#nav {
+    width: 96%;
+    background-color: #d7d3d3;
+    padding: 26px;
+    word-spacing: 17px;
+    letter-spacing: 2px;
+    font-family: "Buxton sketch";
+    box-shadow:-5px 2px 20px 4px black;
+    font-weight:bold;
+    font-size: 15px;
+    margin: -8px;
+
+    position: fixed;
+    z-index: 999;
+    cursor: pointer;
+}
+#nav a:hover{
+    background-color: blue;
+    font-size: 18px;
+    padding: 12px;
+
+    
+}
+
+#arabic .arabic{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    bottom: -610px;
+    left: 80px;
+    box-shadow:-5px 2px 20px 4px black;
+}
+.pic #arabic .arabic:hover{
+    width: 220px;
+    height: 220px;
+    opacity: .999;
+    
+}
+#english .english{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    bottom: -610px;
+    left: 360px;
+    box-shadow:-5px 2px 20px 4px black;
+
+}
+.pic #english .english:hover{
+    width: 220px;
+    height: 220px;
+}
+#math .math{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    bottom: -610px;
+    left: 640px;
+    box-shadow:-5px 2px 20px 4px black;
+}
+.pic #math .math:hover{
+    width: 220px;
+    height: 220px;
+}
+#religion .religion{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    bottom: -610px;
+    left: 920px;
+    box-shadow:-5px 2px 20px 4px black;
+}
+#religion .religion:hover{
+    width: 220px;
+    height: 220px;
+}
+
+.pic{
+    position: absolute;
+    margin-left: -28px;
+    bottom: 120px;
+    width:99% ;
+   display: block;
+    
+}
+a{
+    text-decoration-line: none;
+
+}
+a:hover{
+    color: green;
+    font-size: 20px;
+}
+
+.ar{
+    position: absolute;
+    bottom: -695px;
+    left: 100px;
+    width: 180px;
+    word-spacing: 5px;
+    text-align: center;
+}
+.en{
+    position: absolute;
+    bottom: -695px;
+    left: 390px;
+    width: 180px;
+    word-spacing: 5px;
+    text-align: center;
+}
+.ma{
+    position: relative;
+    bottom: -695px;
+    left: 675px;
+    width: 180px;
+    word-spacing: 5px;
+    text-align: center;
+}
+.re{
+    position: absolute;
+    bottom: -695px;
+    left: 960px;
+    width: 180px;
+    word-spacing: 5px;
+    text-align: center;
+}
+.classes{
+    background-color: #28a745;
+    color: aliceblue;
+    padding: 10px;
+    font-size: 21px;
+    line-height: 3px;
+}
+.classes:hover{
+    background-color: rgb(58, 179, 58);
+}
+span{
+    float: right;
+    margin-left: 1050px;
+    font-size: 32px;
+    font-family:cursive;
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    z-index: 999;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    
+}
+.P{
+    width: 70PX;
+    color: #007BFF;
+
+    font-size: 30px;
+    display: inline-block;
+    text-shadow: 2px 2px 4px #000000;
+    font-weight: bolder;
+    
+
+
+
+
+}
+.welcome{
+    width: 450px;
+    margin-left: 340px;
+    margin-top: -170px;
+    
+    
+    
+}
+ .backkg{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(120, 17, 17);
+    position: absolute;
+    bottom: -550px;
+    left: 24px;
+}
+.imgg{
+    width: 100px;
+    height: 120px;
+    float: right;
+    margin-left: 1085px;
+}
+a{
+    color: #000000;
+}
+
+
+@media screen and (min-width:401px) and (max-width:768px) { 
+    img{
+        width: 100%;
+        position: absolute;
+    }
+
+    .welcome{
+        width: 250px;
+        margin-left: 100px;
+        margin-top: -170px;
+    }
+
+    .pic{
+        position: absolute;
+        margin-left: -28px;
+        bottom: 120px;
+        width:99% ;
+        display: block;
+    }
+
+   
+    #english .english{
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        bottom: -980px;
+        left: 90px;
+        box-shadow:-5px 2px 20px 4px black;
+    
+    }
+
+
+    .en{
+        position: absolute;
+        bottom: -1100px;
+        left: 118px;
+        width: 180px;
+        word-spacing: 5px;
+        text-align: center;
+    }
+
+
+    #math .math{
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        bottom: -1380px;
+        left: 100px;
+        box-shadow:-5px 2px 20px 4px black;
+    }
+    
+
+
+    .ma{
+        position: absolute;
+        bottom: -1480px;
+        left: 100px;
+        width: 250px;
+        word-spacing: 5px;
+        text-align: center;
+    }
+
+
+    #religion .religion{
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        bottom: -1740px;
+        left: 100px;
+        box-shadow:-5px 2px 20px 4px black;
+    }
+
+
+    .re{
+        position: absolute;
+        bottom: -1830px;
+        left: 120px;
+        width: 180px;
+        word-spacing: 5px;
+        text-align: center;
+    }
+
+
+    .imgg{
+        width: 50px;
+        height: 60px;
+        float: left;
+        margin-left: 330px;
+        position: absolute;
+        
+    }
+} 

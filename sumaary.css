@@ -1,0 +1,182 @@
+/* body{
+    background-color: rgb(255, 255, 255);
+    width: 99%;
+}
+.bg1{
+    background-color: rgb(51, 187, 187);
+    width: 100%;
+    height: 300px;
+    position: relative;
+    left: -7px;
+    
+}
+
+#nav2 {
+    width: 98%;    background-color: #ffffff;
+    padding: 26px ;
+    word-spacing: 17px;
+    letter-spacing: 2px;
+    font-family: "Buxton sketch";
+    box-shadow:-5px 2px 20px 4px black;
+    font-weight:bold;
+    font-size: 15px;
+    margin-top: -310px;
+    left: 1px;
+    position: fixed;
+    z-index: 999;
+    cursor: pointer;
+}
+
+#nav2 a:hover{
+    background-color: rgb(242, 173, 46);
+    font-size: 18px;
+    padding: 12px;
+
+    
+}
+
+span{
+  
+  margin-left: 680px;
+  margin-top: -10px;
+    font-size: 32px;
+    font-family:cursive;
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    z-index: 999;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    
+}
+
+.summary{
+    background-color: #28a745;
+    color: aliceblue;
+    padding: 10px;
+    font-size: 21px;
+    line-height: 3px;
+}
+
+.h3{
+    position: absolute;
+    top: 140px;
+    left: 420px;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: cursive;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+.h1{
+    color: #093d15;
+    font-size: 80px;
+    font-family: cursive;
+    width: 20px;
+    position: absolute;
+    left: 198px;
+    bottom: 120px;
+
+}
+.h5{
+    font-size: 20px;
+    width: 290px;
+    position: absolute;
+    left: 340px;
+    bottom: 160px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.child{
+    width: 290px;
+   float: right;
+   margin:20px;
+    
+    
+}
+.sumary{
+    width: 380px;
+    height: 410px;
+    background-color: #ffffff;
+    box-shadow:-5px 2px 20px 4px black;
+    text-align: center;
+    padding: 35px;
+    position: absolute;
+    bottom: -550px;
+    left: 50px;
+    
+}
+.pppp{
+    position: absolute;
+    bottom: 5px;
+    left: 150px;
+    text-shadow: 2px 2px 4px #000000;
+}
+.matt{
+    width: 50px;
+     margin-top: 165px;
+     margin-left: 360PX;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+} */
+
+
+
+#father{
+    width: 98%;
+    height: 290px;
+    background-color: rgb(51, 187, 187);
+}
+
+.navbar{
+    position: fixed;
+
+}
+span{
+    font-size: 100px;
+    font-family: cursive;
+    
+}
+.move{
+    display: inline-block;
+}
+#pree{
+display: inline-block;
+font-family: cursive;
+padding-left: 90px;
+}
+
+h2{
+    text-align: center;
+    font-family: cursive;
+    color: azure;
+    padding-top:10%;
+
+
+}
+.tall{
+    width: 80%;
+    height: 2px;
+    background-color: black;
+    margin:10%
+}
+
+a:hover{
+    background-color:blue;
+}
+
+
+@media screen and (min-width:401px) and (max-width:768px) { 
+    
+
+    #edit{
+    position: absolute;
+    bottom: -280px;
+    right: 10px;
+    
+    }
+} 

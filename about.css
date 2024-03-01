@@ -1,0 +1,38 @@
+a:hover{
+    background-color: blue;
+
+    
+}
+
+
+img{ position: absolute;
+
+   
+    
+}
+
+#bttn{
+      position: relative;
+        bottom: -480px;
+        left: 530px;
+        box-sizing: border-box;
+}
+
+.iconn{
+    width: 150px;
+    border-radius: 30px;
+    transform: translate(-130px,-250px);
+}
+
+
+ 
+
+@media screen and (min-width:401px) and (max-width:768px) { 
+    
+
+    .iconn{
+        width: 50px;
+        border-radius: 30px;
+        transform: translate(-410px,-410px);
+    }
+} 
